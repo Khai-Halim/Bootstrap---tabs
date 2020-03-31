@@ -1,0 +1,26 @@
+/*You can over-ride the tabs default styling here*/
+
+/* The background of the tabs*/
+.nav-tabs{background: transparent;}
+
+/* The content */
+.tab-content{background: white;}
+
+/* The tabs (not active)*/
+.nav-item a {
+    color: #555555;
+    text-decoration: none;
+    background-color: var(--light);
+    -webkit-text-decoration-skip: objects;
+}
+
+/* The Active tab */
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #333;
+    background-color: white;
+    /*border-color: #dee2e6 #dee2e6 #fff;*/
+    border-bottom-color:white ;
+}
+
+
+
